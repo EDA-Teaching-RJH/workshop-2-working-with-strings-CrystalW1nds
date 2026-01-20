@@ -1,9 +1,13 @@
 import math  
 
 def main():
-#TO DO  
+    A = int(input("Enter one side: "))
+    B = int(input("Enter the other side: "))
+    pythag(A, B)
 
 def pythag(A,B):
-#TO DO  
+    hypotenuse = math.hypot(float(A),float(B))
+    print(hypotenuse)
+
 
 main()
